@@ -41,9 +41,8 @@ export default function Contact() {
             <div>
               <h3 className="font-semibold mb-1">Socials</h3>
               <div className="flex gap-4">
-                <a href="https://linkedin.com" target="_blank" className="link link-primary">LinkedIn</a>
-                <a href="https://github.com" target="_blank" className="link link-primary">GitHub</a>
-                <a href="https://twitter.com" target="_blank" className="link link-primary">Twitter</a>
+                <a href="https://www.linkedin.com/in/gerson-ambesa-06ba86274/" target="_blank" className="link link-primary">LinkedIn</a>
+                <a href="https://github.com/GersonNiandrie" target="_blank" className="link link-primary">GitHub</a>
               </div>
             </div>
           </div>

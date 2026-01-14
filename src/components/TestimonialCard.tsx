@@ -6,7 +6,7 @@ type Props = {
 
 export default function TestimonialCard({ testimonial }: Props) {
   return (
-    <div className="card bg-base-100 shadow-md p-6">
+    <div className="card bg-base-100 shadow-md p-6 transition-opacity duration-500">
       <p className="text-base-content/80 italic">"{testimonial.message}"</p>
 
       <div className="mt-4 flex items-center gap-4">
