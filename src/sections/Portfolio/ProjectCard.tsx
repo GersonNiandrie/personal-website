@@ -7,7 +7,7 @@ type Props = {
 
 export default function ProjectCard({ project }: Props) {
   return (
-    <div className="card bg-base-100 shadow-sm group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:drop-shadow-rgba(34,197,94,0.35)">
+    <div className="card bg-base-100 shadow-sm group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:drop-shadow-[0_12px_25px_rgba(34,197,94,0.35)]">
 
       {/* Image */}
       {project.image && (

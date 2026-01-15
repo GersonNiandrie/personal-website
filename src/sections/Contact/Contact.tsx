@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -40,9 +41,26 @@ export default function Contact() {
 
             <div>
               <h3 className="font-semibold mb-1">Socials</h3>
-              <div className="flex gap-4">
-                <a href="https://www.linkedin.com/in/gerson-ambesa-06ba86274/" target="_blank" className="link link-primary">LinkedIn</a>
-                <a href="https://github.com/GersonNiandrie" target="_blank" className="link link-primary">GitHub</a>
+              <div className="flex justify-center gap-6 mt-6">
+                <a
+                  href="https://www.linkedin.com/in/gerson-ambesa-06ba86274/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  className="text-3xl text-base-content/70 hover:text-primary transition"
+                >
+                  <FaLinkedin />
+                </a>
+
+                <a
+                  href="https://github.com/GersonNiandrie"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                  className="text-3xl text-base-content/70 hover:text-primary transition"
+                >
+                  <FaGithub />
+                </a>
               </div>
             </div>
           </div>
