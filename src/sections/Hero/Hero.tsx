@@ -53,9 +53,9 @@ export default function Hero() {
           </div>
 
           {/* RIGHT: Image */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-right">
             <div className="relative">
-              <div className="w-60 sm:w-72 lg:w-80 aspect-square rounded-full overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-4">
+              <div className="w-60 sm:w-72 lg:w-100 aspect-square rounded-full overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-4">
                 <img
                   src={profileImg}
                   alt="Profile"
