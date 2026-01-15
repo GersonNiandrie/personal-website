@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -60,6 +60,15 @@ export default function Contact() {
                   className="text-3xl text-base-content/70 hover:text-primary transition"
                 >
                   <FaGithub />
+                </a>
+                <a
+                  href="https://www.youtube.com/@GeeHaGames"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
+                  className="text-3xl text-base-content/70 hover:text-primary transition"
+                >
+                  <FaYoutube />
                 </a>
               </div>
             </div>

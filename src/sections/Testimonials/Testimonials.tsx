@@ -50,18 +50,6 @@ export default function Testimonials() {
             Next ❯
           </button>
         </div>
-
-        <div className="flex justify-center gap-2 mt-4">
-        {testimonials.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentIndex(index)}
-            className={`w-3 h-3 rounded-full ${
-              index === currentIndex ? "bg-primary" : "bg-base-300"
-            }`}
-          />
-        ))}
-        </div>
       </div>
     </section>
   );
