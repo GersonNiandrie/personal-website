@@ -17,7 +17,7 @@ export default function NavBar() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false); // close mobile menu
+      setIsOpen(false);
     }
   };
 

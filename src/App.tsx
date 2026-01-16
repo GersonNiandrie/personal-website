@@ -6,6 +6,7 @@ import ExperienceTimeline from "./components/ExperienceTimeline";
 import Testimonials from "./sections/Testimonials/Testimonials";
 import Contact from "./sections/Contact/Contact";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ExperienceTimeline />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   );
 }
